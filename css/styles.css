@@ -145,16 +145,6 @@ button {
   bottom: -1px;
 }
 
-.portfolio-link::after {
-  position: absolute;
-  content: '';
-  border-radius: 2px;
-  width: 66px;
-  height: 4px;
-  background-color: #404bbf;
-  bottom: -1px;
-}
-
 .studio-link {
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -176,14 +166,6 @@ button {
   column-gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
-}
-
-.menu-adress-item {
-  margin-right: 40px;
-}
-
-.menu-adress-item:last-child {
-  margin-right: 0;
 }
 
 .contacts {
@@ -514,7 +496,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-bottom: 16px;
   display: inline-block;
 }
 
